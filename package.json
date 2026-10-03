@@ -1,0 +1,16 @@
+{
+  "name": "cloudpod-backend",
+  "version": "1.0.0",
+  "description": "CloudPod backend: MJPEG stream + signaling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pureimage": "^0.3.13",
+    "ws": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
